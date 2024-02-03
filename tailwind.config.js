@@ -7,8 +7,12 @@ export default {
   theme: {
     extend: {
       spacing: {
-        '18': '4.5rem',
+        '18': '4.5rem'
       },
+
+      // fontFamily: {
+      //   'inter': 'inter'
+      // },
       screens: {
 
       'laptop': {'max': '1023px'},
