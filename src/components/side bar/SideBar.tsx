@@ -9,13 +9,13 @@ import Donate from "./Donate"
 
 function SideBar() {
     const icons = [
-    <CiHome size={20}/>,
-    <RiApps2Line  size={20}/>,
-    <IoBulbOutline size={20}/>,
-    <FaRegBookmark size={20}/>,
-    <PiChatsTeardropThin size={20}/>,
-    <RiMedicineBottleLine size={20}/>,
-    <IoMdBook  size={20}/>
+    <CiHome               size={20} color="#868686" />,
+    <RiApps2Line          size={20} color="#868686" />,
+    <IoBulbOutline        size={20} color="#868686" />,
+    <FaRegBookmark        size={20} color="#868686" />,
+    <PiChatsTeardropThin  size={20} color="#868686" />,
+    <RiMedicineBottleLine size={20} color="#868686" />,
+    <IoMdBook             size={20} color="#868686" />
 ]
   return (
     <div className="flex flex-col gap-36 items-center m-8">

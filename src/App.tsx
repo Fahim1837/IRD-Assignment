@@ -1,4 +1,5 @@
 import NavBar from "./components/navigation/NavBar"
+import Settings from "./components/side bar/Settings"
 import SideBar from "./components/side bar/SideBar"
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 			<div className="col-span-1 bg-slate-300"><SideBar/></div>
 			<div className="col-span-2 bg-slate-400 tablet:hidden">Categories</div>
 			<div className="col-span-3 bg-slate-500">Main Section</div>
-			<div className="col-span-2 bg-slate-600 laptop:hidden">Side Settings</div>
+			<div className="col-span-2 bg-slate-600 laptop:hidden"><Settings/></div>
    		</div>
 		</>
   )
