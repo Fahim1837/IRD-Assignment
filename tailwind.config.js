@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'primary': '#1FA45B'
+      },
       spacing: {
         '18': '4.5rem'
       },
