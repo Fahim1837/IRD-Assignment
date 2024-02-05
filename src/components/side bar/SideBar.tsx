@@ -18,10 +18,10 @@ function SideBar() {
     <IoMdBook             size={20} color="#868686" />
 ]
   return (
-    <div className="flex flex-col gap-36 items-center m-8">
+    <div className="flex flex-col gap-36 items-center m-8 ">
         <Logo/>
         <ul className="flex flex-col gap-7">
-            {icons.map((item, index) => <li><button className="bg-slate-200 p-2 rounded-full" key={index}>{item}</button></li>)}
+            {icons.map((item, index) => <li key={index}><button className="bg-slate-200 p-2 rounded-full" >{item}</button></li>)}
         </ul>
         <div className="mt-5">
             <Donate />

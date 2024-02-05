@@ -14,7 +14,7 @@ function Settings() {
   return (
       <div className="flex flex-col gap-6 items-center m-9">
             <h1 className="text-[#393939] font-bold text-xl">Settings</h1>
-        <ul className="flex flex-col gap-7">
+        <ul className="flex flex-col gap-4">
             {icons.map((item) => 
             <li className=" w-72 h-14 flex items-center gap-4 rounded-md bg-white" key={item.id}>
                 <button className="bg-slate-200 p-2 rounded-full">{item.icon}</button>
